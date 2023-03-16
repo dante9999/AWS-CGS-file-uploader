@@ -1,0 +1,22 @@
+{
+    "file_types": {
+        "image": ["jpg", "png", "svg", "webp"],
+        "media": ["mp3", "mp4", "mpeg4", "wmv", "3gp", "webm", "avi"],
+        "document": ["doc", "docx", "csv", "pdf"]
+    },
+
+
+    "cloud_services": {
+        "s3": {
+            "bucket_name": "my-aws-bucket",
+            "credentials_file": "key.csv",
+            "file_types": ["jpg", "png", "svg", "webp", "mp3", "mp4", "mpeg4", "wmv", "3gp", "webm"]
+        },
+        "gcs": {
+            "bucket_name": "my-gcs-bucket",
+            "credentials_file": "key.json",
+            "file_types": ["doc", "docx", "csv", "pdf"]
+        }
+    }
+
+}
