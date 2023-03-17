@@ -5,7 +5,7 @@
 file_uploader is a Python module that reads files from a directory and its subdirectories and uploads them to cloud storage services. It currently supports uploading media files (images and videos) to AWS S3 and documents (PDFs and Word documents) to Google Cloud Storage. The module is configurable and allows customizing the types of files to be uploaded to each cloud service.
 
 ### Installation
-##### Recommended to install in a virtual enviornment.Always _Keep the required files in the same directory_
+##### _Recommended to install in a virtual enviornment.Always Keep the required files in the same directory_
 ### How to Use
 There are two ways to use the module:
 1. Download the source code 'file_uploader.py' and install the required dependencies using pip:
