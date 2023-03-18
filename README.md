@@ -90,3 +90,8 @@ The S3Uploader class is responsible for uploading files to Amazon S3, and it tak
 
 - bucket_name: The name of the Amazon S3 bucket to which the files will be uploaded.
 - credentials_path: The path to the Amazon S3 credentials file, in CSV format.
+
+
+### Updates
+Draft of new methods for uploading large size files are added in new_methods.py.Not to be used yet.
+It can handle very large files efficiently to use multipart uploads, which split the file into smaller parts (known as "parts" or "chunks") and upload them in parallel. This can improve the upload speed and reduce the likelihood of network failures or timeouts.
